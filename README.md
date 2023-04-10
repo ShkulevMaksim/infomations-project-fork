@@ -17,4 +17,22 @@
 	printf("-----Как я к вам могу обращаться?-----\n");
 	}
 ```
-
++ Функция "update_score(int, float, int, float, float)" обновляет баланс игрока в зависимости от исхода игры.
+```
+	int update_score(int boo, float score, int g_number, float win, float bet) {
+	if (boo == 0) {
+		printf("--------------------------------------\n");
+		printf("----Попытки закончились, Вы проиграли.\n");
+		printf("----Число которое мы загадали -- %d\n", g_number);
+		score -= bet;
+		printf("----На вашем счету доступно %.2f$\n", score);
+	}else {
+		printf("--------------------------------------\n");
+		printf("---------Вы выйграли %.2f$-----------\n", win);
+		score = score - bet + win;
+		printf("----На вашем счету доступно %.2f$----\n", score);
+		printf("--------------------------------------\n");
+	}
+	return score;
+	}
+```
