@@ -36,5 +36,9 @@
 	return score;
 	}
 ```
+
 ***
+
 ![Пример работы программы](https://sun9-32.userapi.com/impg/7q_Fzu-XeKHpR2wUXLcxalzIP2qUy3KbxzDFPQ/9AhNZsZINYs.jpg?size=1062x527&quality=96&sign=e45c575e6ec7ed736f94b31b5f780448&type=album)
+
+> Пример работы программы.
